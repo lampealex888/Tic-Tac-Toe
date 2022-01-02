@@ -1,0 +1,29 @@
+object gameBoard
+[x] contains array of board 
+[x] method to get tile
+[x] method to set tile
+[] method to clear array
+
+object player
+[x] contains string of sign
+[x] method to get sign
+[x] method to set sign
+
+object gameController
+- contains object player 
+- contains object ai
+- method to get human player
+- method to get ai player
+- method to check for rows
+- method to check for columns
+- method to check for diagonals
+- method to check for win using past 3 methods
+- method to check for draw
+- method for player to make a move
+- method for ai to make a move
+- method to end the game
+
+object displayController
+[] method to update display
+[] method to clear display
+
