@@ -1,0 +1,29 @@
+#results, #difficulty, #player-choice, #reset {
+    display: none;
+}
+
+#main {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: skyblue;
+}
+
+.tile {
+    height: 20em;
+    width: 100%;
+    /*border: none;*/
+    background-color: transparent;
+}
+
+.tile p {
+    font-size: 15em;
+    margin: 0;
+    padding: 0;
+}

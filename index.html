@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div id="main">
+      <div id="results">
+        <!--
+        <p></p>
+        -->
+      </div>
+
+      <div id="difficulty">
+        <form action="" id="form">
+          <select name="levels" id="levels">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+            <option value="unbeatable">Unbeatable</option>
+          </select>
+        </form>
+      </div>
+
+      <div id="player-choice">
+        <button id="pick-x">X</button>
+        <button id="pick-o">O</button>
+      </div>
+
+      <div id="game-board">
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+        <button class="tile"><p></p></button>
+      </div>
+
+      <div id="reset">
+        <button id="restard-btn">Restart</button>
+      </div>
+    </div>
+    
 	<script src="js/index.js"></script>
   </body>
 </html>
