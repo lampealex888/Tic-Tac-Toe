@@ -39,9 +39,9 @@ const gameController = (() => {
 
     const getHumanPlayer = () => _humanPlayer
     const getAiPlayer = () => _aiPlayer
-//    const playerStep = (num) => {
-//        const 
-//    }
+    const playerStep = (index) => {
+        const tile = gameBoard.getTile(index)
+    }
 
     return {
         getHumanPlayer,
